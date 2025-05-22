@@ -9,8 +9,8 @@ def connect_to_database():
     # σύνδεση με βάση δεδομένων
     mydb = mysql.connector.connect(
         host='localhost',
-        user='root',
-        password='memosgianna2002',
+        user='username',
+        password='yourpassword',
         port='3306',
         database='python'
     )
